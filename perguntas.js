@@ -1,9 +1,9 @@
 export const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Você está começando suas olimpíadas pelo skate. Na sua primeira apresentação você cai duas vezes, você prefere anular sua nota ou continuar?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Anular a nota.",
                 afirmacao: [
                     "No início ficou com medo do que essa tecnologia pode fazer.",
                     "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
@@ -11,7 +11,7 @@ export const perguntas = [
                 proxima: 1,
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Vou continuar mesmo se a nota for ruim!",
                 afirmacao: [
                     "Quis saber como usar IA no seu dia a dia.",
                     "Pensou que IA pode ajudar em tarefas da sua vida."
