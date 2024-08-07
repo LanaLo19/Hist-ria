@@ -1,20 +1,20 @@
 export const perguntas = [
     {
-        enunciado: "Você está começando suas olimpíadas pelo skate. Na sua primeira apresentação você cai duas vezes, você prefere anular sua nota ou continuar?",
+        enunciado: "Está começando suas olimpíadas pelo skate. Na sua primeira apresentação você cai duas vezes, você prefere anular sua nota ou continuar?",
         alternativas: [
             {
                 texto: "Anular a nota.",
                 afirmacao: [
-                    "No início ficou com medo do que essa tecnologia pode fazer.",
-                    "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
+                    "Anulou e na segunda tentativa tirou uma nota pior, assim ficando em último lugar.",
+                    "Anulou mas conseguiu uma nota boa na segunda tentativa."
                 ],
                 proxima: 1,
             },
             {
                 texto: "Vou continuar mesmo se a nota for ruim!",
                 afirmacao: [
-                    "Quis saber como usar IA no seu dia a dia.",
-                    "Pensou que IA pode ajudar em tarefas da sua vida."
+                    "Mesmo caindo, se esforçou e tirou uma nota boa.",
+                    "Acabou tirando uma nota ruim mas recuperou na segunda tentativa."
                 ],
                 proxima: 2,
             },
