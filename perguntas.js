@@ -8,7 +8,7 @@ export const perguntas = [
                     "Anulou e na segunda tentativa tirou uma nota pior, assim ficando em último lugar.",
                     "Anulou mas conseguiu uma nota boa na segunda tentativa."
                 ],
-                proxima: 1,
+                proxima: 2,
             },
             {
                 texto: "Vou continuar mesmo se a nota for ruim!",
@@ -16,47 +16,45 @@ export const perguntas = [
                     "Mesmo caindo, se esforçou e tirou uma nota boa.",
                     "Acabou tirando uma nota ruim mas recuperou na segunda tentativa."
                 ],
+                proxima: 1,
+            },
+        ]
+    },
+    {
+        enunciado: "Você concluiu sua segunda volta e se saiu muito bem com a plateia gritando o seu nome, você vai:",
+        alternativas: [
+            {
+                texto: "Agradecer a torcida e se emocionar.",
+                afirmacao: [
+                    "Você foi titulado como alguém muito carismático.",
+                    "Você viralizou e ganhou muitos seguidores.",
+                ],
+                proxima: 2,
+            },
+            {
+                texto: "Vai direto para seu treinador esperar a sua nota.",
+                afirmacao: [
+                    "Alguns te acharam esnobe.",
+                    "Seu treinador te abraçou e falou que tava orgulhoso.",
+                ],
                 proxima: 2,
             },
         ]
     },
     {
-        enunciado: "Utilizar uma IA pode ser aterrorizante mesmo, e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Você se classificou para o terceiro lugar no skate e ganhou sua medalha. Se passando dois dias, agora você vai competir na ginástica artística e precisa escolher a cor da sua roupa de apresentação:",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Verde e amarelo com detalhes azuis.",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
+                    "Te acharam muito bonita.",
                     "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
                     "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
-                ],
-                proxima: 4,
-            },
-        ]
-    },
-    {
-        enunciado: "Um chat com IA pode ser uma boa alternativa para realizar tarefas do dia a dia e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
-        alternativas: [
-            {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
-                ],
-                proxima: 3,
-            },
-            {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Preto com laranja.",
                 afirmacao: [
                     "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
                     "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
@@ -171,3 +169,4 @@ export const perguntas = [
         ]
     }
 ];
+
