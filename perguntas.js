@@ -48,40 +48,36 @@ export const perguntas = [
                 texto: "Verde e amarelo com detalhes azuis.",
                 afirmacao: [
                     "Te acharam muito bonita.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
+                    "Falaram que deu sorte.",
                 ],
-                proxima: 3,
+                proxima: 4 ,
             },
             {
                 texto: "Preto com laranja.",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
+                    "Acharam as cores feia.",
+                    "A alça a roupa começou a rasgar durante a apresentação.",
                 ],
-                proxima: 4,
+                proxima: 3,
             },
         ]
     },
     {
-        enunciado: "Ferramentas de busca que utilizam IA podem facilitar muito nosso processo de busca por informações. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "Escolhendo a roupa preta e laranja, ela teve um defeito na alça e começou a rasgar, então:",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Decide parar a apresentação para trocar a roupa.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Perde tempo mas consegue apresentar mais tranquilo.",
                 ],
-                proxima: 5,
+                proxima: 4,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Decide continuar mesmo com a alça rasgando.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Sua alça rasgou e perdeu pontos por isso.",
                 ],
-                proxima: 6,
+                proxima: 4,
             },
         ]
     },
