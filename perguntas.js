@@ -102,41 +102,38 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Como última modalidade, participará do hipismo. Você tinha duas chances para fazer toda a apresentação, mas na segunda, seu cavalo bate fazendo você e ele cair",
+        enunciado: "Como última modalidade, participará do hipismo. Você tinha duas chances para fazer toda a apresentação mas, seu cavalo bate fazendo você e ele cair",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Você corre até seu cavalo para checar se ele está bem. ",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "A plateia ficou encantada com sua atitude positiva. Na segunda tentativa, você tirou a melhor nota, fazendo com que ganhasse medalha.",
+                    "Seu cavalo não se machucou e quando levantou, lambeu sua cara. Na segunda tentativa, você tirou a melhor nota, fazendo com que ganhasse medalha."
                 ],
-                proxima: 6,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Fica com raiva e atinge seu cavalo com um tapa.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Os jurados não gostaram da sua atitude e te desclassificaram.",
+                    "A plateia te odiou e você foi desclassificado."
                 ],
-                proxima: 7,
+                proxima: 6,
             },
         ]
     },
     {
-        enunciado: "É muito importante refletir sobre os trabalhadores do futuro. Por isso a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Você foi banido das olimpíadas 2028 e seu cavalo foi levado para receber cuidados longe de você.",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Você entende seu erro e admite estar errado.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Você entendeu os seus erros e se tornou um cavalheiro melhor.",
                 ],
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Se revolta com os jurados. -Isso é uma injustiça!",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Você está banido permanentemente das próximas olimpíadas.",
                 ],
             },
         ]
